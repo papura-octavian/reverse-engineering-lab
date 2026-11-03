@@ -1,2 +1,5 @@
+# ignore python environment
 /.venv
+
+# ignore project initializer script
 /init.py
