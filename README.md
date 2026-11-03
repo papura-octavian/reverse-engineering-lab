@@ -2,51 +2,51 @@
 
 # 🔓 Reverse Engineering Lab
 
-**My writeups and keygens for crackmes from [crackmes.one](https://crackmes.one)**
+**My reverse engineering writeups: crackmes, CTF challenges and binary analysis**
 
 ![Ghidra](https://img.shields.io/badge/Ghidra-reverse%20engineering-red?style=flat-square)
-![Python](https://img.shields.io/badge/Python-keygens-3776AB?style=flat-square&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-Linux%20x86--64-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-solutions-3776AB?style=flat-square&logo=python&logoColor=white)
+![Writeups](https://img.shields.io/badge/writeups-step%20by%20step-2ea44f?style=flat-square)
 
 </div>
 
 ---
 
-## 🧩 Solved Crackmes
+## 🧩 Solved Challenges
 
-| # | Crackme | Author | Difficulty | Platform | Language | Goal | Solution |
-|:-:|---------|--------|:----------:|----------|----------|------|----------|
-| 1 | [easy_keygenme](https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee) | bahha | 🟢 2.0 | Linux x86-64 | C++ | Keygen | [📄 Writeup](bahha-s-easy-keygenme/README.md) · [🔑 Keygen](bahha-s-easy-keygenme/keygen.py) |
+| # | Challenge | Source | Difficulty | Platform | Language | Goal | Solution |
+|:-:|-----------|--------|:----------:|----------|----------|------|----------|
+| 1 | [easy_keygenme](https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee) by bahha | crackmes.one | 🟢 2.0 / 6 | Linux x86-64 | C++ | Keygen | [📄 Writeup](bahha-s-easy-keygenme/README.md) · [🔑 Keygen](bahha-s-easy-keygenme/keygen.py) |
 
-> Difficulty is the community rating from crackmes.one, on a scale from 1.0 to 6.0.
+> Difficulty is the rating given by each challenge's source.
 
 ---
 
-## 🛠️ How I Solve Them
+## 🛠️ How I Approach a Binary
 
-1. **Recon:** run the binary and see what input it asks for and what it prints
-2. **Static analysis:** open it in Ghidra, find `main`, and follow the strings
+1. **Recon:** run it and see what input it expects and what it prints
+2. **Static analysis:** load it in a disassembler/decompiler (Ghidra), find the entry point and follow the strings
 3. **Clean up:** rename variables and functions until the decompiled code reads like source
-4. **Rebuild the logic:** work out exactly how the input is checked
-5. **Solve:** write a keygen (or find the password) and test it against the original binary
+4. **Rebuild the logic:** work out exactly what the program does with the input
+5. **Solve:** write a keygen, patch, or script, find the flag or password, and test it against the original binary
 
 ---
 
 ## 📁 Structure
 
-Every crackme gets its own folder:
+Every challenge gets its own folder:
 
 ```
 reverse-engineering-lab/
-└── <crackme-name>/
+└── <challenge-name>/
     ├── README.md     # the writeup
-    ├── img/          # screenshots from Ghidra and the terminal
-    ├── keygen.py     # the solution (if it's a keygenme)
-    └── <binary>      # the original crackme
+    ├── img/          # screenshots from the tools and the terminal
+    ├── <solution>    # keygen, patcher or solve script
+    └── <binary>      # the original challenge
 ```
 
 ---
 
 ## ⚠️ Disclaimer
 
-Every binary here is a crackme: a challenge written to be reversed and published on crackmes.one for practice. Even so, it's good practice to run unknown binaries inside a VM.
+Everything here is for learning. The binaries are public challenges written to be reversed (crackmes, CTF tasks and similar). Even so, it's good practice to run unknown binaries inside a VM.
