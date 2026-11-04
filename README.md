@@ -17,8 +17,8 @@
 | # | Challenge | Source | Difficulty | Platform | Language | Goal | Solution |
 |:-:|-----------|--------|:----------:|----------|----------|------|----------|
 | 1 | [easy_keygenme](https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee) by bahha | crackmes.one | 🟢 2.0 / 6 | Unix/linux etc. | C/C++ | Keygen | [📄 Writeup](bahha-s-easy-keygenme/README.md) · [🔑 Keygen](bahha-s-easy-keygenme/keygen.py) |
-| 2 | [EasyCrack - Much0l0k0](https://crackmes.one/crackme/5cc1117833c5d4419da558dc) by paypain | crackmes.one | 🟢 2.0 / 6 | Unix/linux etc. | C/C++ | Keygen | [📄 Writeup](paypain-s-easycrack-much0l0k0\README.md) · [🔑 Keygen](paypain-s-easycrack-much0l0k0\keygen.py) |
-| 3 | [keygenme](https://crackmes.one/crackme/5d24585133c5d410dc4d0cbd) by kawaii-flesh | crackmes.one | 🟢 2.0 / 6 | Unix/linux etc. | C/C++ | Keygen | [📄 Writeup](kawaii-flesh-s-keygenme\README.md) · [🔑 Keygen](kawaii-flesh-s-keygenme\keygen.py) |
+| 2 | [EasyCrack - Much0l0k0](https://crackmes.one/crackme/5cc1117833c5d4419da558dc) by paypain | crackmes.one | 🟢 2.0 / 6 | Unix/linux etc. | C/C++ | Keygen | [📄 Writeup](paypain-s-easycrack-much0l0k0/README.md) · [🔑 Keygen](paypain-s-easycrack-much0l0k0/keygen.py) |
+| 3 | [keygenme](https://crackmes.one/crackme/5d24585133c5d410dc4d0cbd) by kawaii-flesh | crackmes.one | 🟢 2.0 / 6 | Unix/linux etc. | C/C++ | Keygen | [📄 Writeup](kawaii-flesh-s-keygenme/README.md) · [🔑 Keygen](kawaii-flesh-s-keygenme/keygen.py) |
 > Difficulty is the rating given by each challenge's source.
 
 ---
